@@ -1,0 +1,95 @@
+.ctbkgblack {
+    background-color: black;
+}
+
+.ctopacity {
+    opacity: 30%;
+}
+
+.cth1 {
+    font-family: Playfair Display;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.cts1 {
+    margin-top: 2%;
+    /* padding: 1%; */
+}
+
+.ctpad3 {
+    padding: 2%;
+}
+
+.cts2 {
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 1% 1% 1% 1%;
+}
+
+.cts3 {
+    font-family: Playfair Display;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 6%;
+}
+
+.cts4 {
+    font-family: Playfair Display;
+    font-size: 12px;
+    padding: 6%;
+}
+
+.cts5 {
+    background-color: #f0f0f0;
+    padding: 5%;
+}
+
+.cts6 {
+    font-family: Playfair Display;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 1%;
+}
+
+.cts7 {
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-weight: regular;
+    padding: 1%;
+}
+
+.ctbtn1 {
+    background-color: #22395b;
+    color: white;
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 30px;
+}
+
+.ctbtn1:hover{
+    background-color: #22395b;
+    color: white;
+}
+
+@media only screen and (max-width:558px){
+    .cth1{
+        font-size: 20px;
+    }
+    .cts3{
+        font-size: 20px;
+    }
+    .cts6{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .cts7{
+        font-size: 18px;
+    }
+   .ctb{
+    margin-top: 30px;
+   }
+    
+}

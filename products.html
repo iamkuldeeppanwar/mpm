@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Category.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <link href="services.css" rel="stylesheet">
+    <link href="products.css" rel="stylesheet">
+    <link href="blog.css" rel="stylesheet">
+    <link href="company.css" rel="stylesheet">
+    <link href="test2.css" rel="stylesheet">
+    <title>Our Products</title>
+
+</head>
+
+<style>
+    /* *{
+       padding: 0px;
+       box-sizing: border-box;
+       margin: 0px;
+    } */
+    .changes-images{
+        position: relative;
+    }
+
+    .sercol1{
+        padding: 0px;
+    }
+
+    .changes-images img{
+        position: absolute;
+        top: -76px;
+         height: 289px;
+        right: 15px;
+    }
+
+    @media only screen and (max-width:768px){
+        .changes-images img{
+            position: relative;
+            height: auto;
+            top: 20px;
+        }
+    }
+
+    .train{
+        width: 180px;
+        max-width: 100%;
+        height: 200px;
+    }
+
+    .social_linksa{
+    position: relative;
+    left: 30px;
+  }
+
+  @media only screen and (max-width:766px) {
+    .social_linksa{
+      left: auto;
+    }
+  }
+  @media only screen and (max-width:580px) {
+    .train{
+      display: block;
+      width: 180px;
+      height: 200px;
+      margin: 20px auto;
+     }
+  }
+</style>
+
+<body class="bkgwhite">
+    <div class="headers">
+        <div class="second-nav">
+            <div style="position: relative;" class="tar">
+            <i  id="santa" style="color:#fff; font-size: 24px;" class="fa-solid fa-bars fanta"></i>
+            <i id="cross" style="color:#fff; position: absolute; top: -168px; font-size: 24px;" class="fa-solid fa-xmark sest"></i>
+        </div>
+            <ul  class="just">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="company.html">our company</a></li>
+                <li><a href="products.html">our products</a></li>
+                <li><a href="services.html">our services</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="first-nav">
+         <span><img class="imh" src="assets/icon.png" alt=""></span>
+         <div class="mobile-navigation">
+         <ul class="mobile-nav" id="mobile">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="company.html">our company</a></li>
+            <li><a href="products.html">our products</a></li>
+            <li><a href="services.html">our services</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </div>
+    </div>
+     </div> 
+    <!-- <div class="header header-fixed">
+        <div class="navbar container">
+
+            <input type="checkbox" id="navbar-toggle">
+            <label for="navbar-toggle"><i></i></label>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="company.html">our company</a></li>
+                    <li><a href="products.html">our products</a></li>
+                    <li><a href="services.html">our services</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <img style="width:50px ; height:50px;  ;" src="assets\icon.png" alt="Logo Image">
+            </div>
+        </div>
+    </div> -->
+    <script src="test.js"></script>
+    <div class="container-fluid">
+        <div class="row bkgblack">
+            <div class="col-md-12 container">
+                <img alt="Bootstrap Image Preview" src="assets\img1.png" width="100%" class="opacity60" />
+                <div class="centered oph1">OUR PRODUCTS</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid prods1">
+        <div class="row margin70">
+            <div class="col-md-12">
+                <h3 class="oph2">
+                    Dealing with
+                </h3>
+                <p class="opp1">
+                    We deal with many products which are listed below.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background-color:#ffffff ; padding: 3%;">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-3">
+
+                        <button type="button" class=" btn mybtn1 btmpad1" style="background-color:#22395b; color:white" onclick="button5()">
+                            SCRAP
+                        </button>
+                    </div>
+                    <div class="col-md-3">
+
+                        <button type="button" class=" btn mybtn1 btmpad22 " onclick="button6()">
+                            PRIME PRODUCTS
+                        </button>
+                    </div>
+                    <div class="col-md-3">
+
+                        <button type="button" class=" btn mybtn1 btmpad3" onclick="button7()">
+                            MINERALS
+                        </button>
+                    </div>
+                    <div class="col-md-3">
+
+                        <button type="button" class=" btn mybtn1 btmpad4 " onclick="button8()">
+                            AGRO COMMODITIES
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <hr>
+    <div id="set1">
+        <div class="clearfix">
+            <div class="img-container">
+                <img src="assets\img2.png" class="left tant">
+                <div class="portion">
+                    <div class="left-text">
+                        <h3><b>Ferrous metal scrap</b></h3><br/> <p> Ferrous scrap comprises mild steel, carbon steel, pristine steel, cast iron, and wrought iron, HMS, LMS, blue steel, car bales, shredded steel, cast iron, turnings and borings, cut plate and
+                        structural scrap. These essences are primarily used for their tensile strength and continuity, especially mild steel which helps hold up the altitudinous towers and the longest islands in the world. Ferrous scrap can also be found
+                        in casing construction, artificial holders, large-scale pipeline, motorcars, rails for road and transportation, utmost of tools and tackle you use around the house, and the shanks you cook with at home.</p><br/>
+
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="assets\img2.png" class="right tant">
+                <div class="portion">
+                    <div class="right-text">
+                        <h3><b>Non ferrous metal scrap</b></h3> <br/><p>It may be noted that nonferrous scrap makes up a small chance of the total volume of material reclaimed/recycled in the United States, but by value, it accounts for further than half of
+                        total U.S. scrap recycling assiduity performance, roughly $32 billion in 2015. Recovered nonferrous scrap, including aluminum, copper, lead, nickel, brass, tin, zinc and others, is consumed by secondary processors in theU.S. as
+                        well as in more than 100 countries worldwide.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="set2">
+        <div class="clearfix">
+            <div class="img-container">
+                <img src="assets\img2.png" class="left tant">
+                <div class="portion">
+                    <div class="left-text">
+                        <h3><b>TMT BARS</b></h3><br/> <p>Rebar is the common name for spherical shaped steel bars with slightly spaced projections called lugs or distortions. They're hot rolled from semi-perfectioned steel called billets. Rebars are generally
+                        consumed steel product of the construction assiduity and are used specifically for concrete underpinning. Rebar creates pressure in concrete to help hold it in a compressed state. Reinforced concrete gives structure to architectural
+                        structures, islands, houses, and other construction the necessary structural integrity.</p> 
+
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="assets\img2.png" class="right tant">
+                <div class="portion">
+                    <div class="right-text">
+                        <h3><b>Aluminum ingots</b></h3>
+                        </br>
+                       <p> Because aluminum is light, it is frequently used in the manufacture of land, ocean and air vehicles similar to motorcars, trains, galleries, vessels, airplanes, rockets, and spacecraft to reduce its own weight and increase the cargo. The raw material
+                        in our diurnal assiduity is called aluminum rod. Aluminum rod has excellent resistance to atmospheric erosion, so it is substantially used for face coating of steel and steel structural corridor ( similar as aluminized rod), and
+                        is extensively used in motorcars, construction, shipbuilding, light assiduity and other diligence. The aluminum beams are used in bones- casting blends, battery assiduity, printing and dyeing assiduity, pharmaceutical assiduity,
+                        rubber assiduity, chemical assiduity, etc. Blends of aluminum beams and other essences are extensively used in electroplating and scattering diligence. Aluminum beams have practical mechanical parcels. The strength and hardness
+                        of the aluminum rod itself isn't high, but after adding aluminum, copper and other alloying rudiments, its strength and hardness are greatly better.</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="set3">
+
+        <div class="block-design">
+           <p> The second-largest mineral industry in the world is found in Africa.For many African countries, the mining sector is an important source of export revenue. Rich in mineral resources, Africa tops the world in terms of quantities of copper, lead and zinc
+            ores. Minerals are imported to China and India from Africa. The process is simple, efficient and absolutely reliable.</p>
+        </div>
+
+    </div>
+
+    <div id="set4">
+
+        <div class="block-design">
+           <p> At every stage of the supply chain, companies in the agri-commodities sector must maximize control while minimizing risk. Carriers such as ship holds and hatches, tanks, containers, vehicles, railcars, and barges must be clean for the transportation of
+            goods. Agri-commodities participants must also guarantee the quality, quantity, and value of traded commodities and follow all international safety and compliance regulations. We import cashews from Africa to India. Rice is exported from India
+            to various parts of the world.</p>
+        </div>
+
+    </div>
+    <!--
+    <div id="set4">
+        <div class="row oppad1001">
+            <div class="col-md-12 container1001">
+                <div class="row">
+
+                    <div class="centered1001 centextf">AGRO COMMODITIES</div>
+                    <br/>
+                    <div class="centered1001 centextf">At every stage of the supply chain, companies in the agri-commodities sector must maximize control while minimizing risk. Carriers such as ship holds and hatches, tanks, containers, vehicles, railcars, and barges must be clean for
+                        the transportation of goods. Agri-commodities participants must also guarantee the quality, quantity, and value of traded commodities and follow all international safety and compliance regulations. We import cashews from Africa
+                        to India. Rice is exported from India to various parts of the world.</div>
+
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    <script>
+        const button5 = () => {
+            document.getElementById("set1").style.display = 'block';
+            document.getElementById("set2").style.display = 'none';
+            document.getElementById("set3").style.display = 'none';
+            document.getElementById("set4").style.display = 'none';
+
+
+        }
+
+        const button6 = () => {
+            document.getElementById("set1").style.display = 'none';
+            document.getElementById("set2").style.display = 'block';
+            document.getElementById("set3").style.display = 'none';
+            document.getElementById("set4").style.display = 'none';
+
+        }
+
+        const button7 = () => {
+            document.getElementById("set1").style.display = 'none';
+            document.getElementById("set2").style.display = 'none';
+            document.getElementById("set3").style.display = 'block';
+            document.getElementById("set4").style.display = 'none';
+
+        }
+
+        const button8 = () => {
+            document.getElementById("set1").style.display = 'none';
+            document.getElementById("set2").style.display = 'none';
+            document.getElementById("set3").style.display = 'none';
+            document.getElementById("set4").style.display = 'block';
+
+        }
+    </script>
+
+    <div class="container-fluid" style="background-color:#ffffff; padding: 3%;">
+        <div class="row">
+            <div class="col-md-10">
+                <h3 class="oph5">
+                    A Passion For Business
+                </h3>
+            </div>
+            <div class="col-md-2">
+
+                <button style="background-color: #22395b; color:white;" type="button" class="btn button5 opbt1">
+				View more testimonials
+			</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row sercol1">
+                <div class="col-md-12">
+                    <div id="myFavCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myFavCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myFavCarousel" data-slide-to="1"></li>
+                            <li data-target="#myFavCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner" style="width:100% ; height:100%">
+                            <div class="item carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img7.png" class="" alt="img">
+                                                <h2 class="chead">Neha Sharma, Ranchi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img8.png" class="img-fluid" alt="img">
+                                                <h2 class="chead">Megha Batra, Delhi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img9.png" class="img-fluid" alt="img">
+                                                <h2 class="chead">Neeraj Sharma, Delhi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img7.png" class="" alt="img">
+                                                <h2 class="chead">Neha Sharma, Ranchi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img8.png" class="img-fluid" alt="img">
+                                                <h2 class="chead">Megha Batra, Delhi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img9.png" class="img-fluid" alt="img">
+                                                <h2 class="chead">Neeraj Sharma, Delhi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img7.png" class="" alt="img">
+                                                <h2 class="chead">Neha Sharma, Ranchi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img8.png" class="img-fluid" alt="img">
+                                                <h2 class="chead">Megha Batra, Delhi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img9.png" class="img-fluid" alt="img">
+                                                <h2 class="chead">Neeraj Sharma, Delhi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control-prev" href="#myFavCarousel" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#myFavCarousel" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid bkgf0" style="padding: 5% ; ">
+        <div class="row">
+            <div class="col-md-7">
+                <h3 class="censtyle1">
+                    Your Support Helps Our Business Grow Online Leads, Calls, And Revenue.
+
+
+                </h3>
+                <p class="censtyle2">
+                    Leads, calls, and revenue. Turn consumer insights and meaningful data into the connected dots, recommendations and tactics to achieve business goals. We are just as excited about thinking big as we are about turning ideas into lines of codes, beautiful
+                    designs, dynamic feeds and social stories.
+                </p>
+                <br>
+                <button type="button" class="btn mybtn1">
+				Read more
+			</button>
+            </div>
+
+            <div class="col-md-5">
+                <div class="col-md-12">
+                    <img src="assets\new3.jpg">
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="footer">
+        <footer class="footerClass">
+            <div class="container-fluid color1">
+                <div class="row footers1">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row changes-for">
+                                <div class="col-md-10">
+                                    <h1 class="footers2">Need Something?<br> We are here, contact us anytime.</h1>
+                                    <a href="contact.html"><button style="background-color:white ; color:black; border:1px solid black;"   type="button" class="btn button5">
+                                        Contact us
+                                    </button></a>
+                                </div>
+                                <div class="col-md-2 changes-images">
+                                    <img class="boot" alt="Bootstrap Image Preview" src="assets\img21.png" width="100%" height="100%" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row footers3">
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img  class="train" style="opacity: 10%;" alt="Bootstrap Image Preview" src="assets\img201.png" />
+                            </div>
+                            <div class="col-md-4">
+                                <form action="/action_page.php">
+                                    <label for="emails" class="footers4">Sign Up For Offers, Product News, And Tips</label><br>
+                                    <input type="email" id="emails" name="emails" value="Enter email addresses" class="footers5">
+
+                                </form>
+                            </div>
+                            <div class="col-md-4 social_linksa">
+                                <h3 class="ser3031 paddings4">
+                                    Follow Us
+                                </h3>
+                                <a href="#" class="fa fa-facebook socialmedial"></a>
+                                <a href="#" class="fa fa-twitter socialmedial"></a>
+                                <a href="#" class="fa fa-instagram socialmedial"></a>
+                                <a href="#" class="fa fa-youtube socialmedial"></a>
+
+                            </div>
+                        </div>
+                        <div style="margin-top:30px ;" class="row">
+                            <!-- <div class="col-md-3">
+                                padding:7% ;
+                            </div> -->
+                            <div class="col-md-4">
+                                <ul class="text-center">
+                                    <li class="list-item ser3031">
+                                        About Ssbeauty
+                                    </li>
+                                    <li class="list-item ser3033 ">
+                                        <a href="#" class="linkstyle"> About Us</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle"> Our Brands</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle"> Newsroom</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                                Careers</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Store Locator</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Events</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="text-center">
+                                    <li class="list-item ser3031">
+                                        My Ssbeauty
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Order Status</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle"></a>
+
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle"> Purchase History</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle"></a>
+                                        Account Settings
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Offers For You</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Blogs</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="text-center">
+                                    <li class="list-item ser3031">
+                                        Help Center
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Customer Service</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Returns & Exchange</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Shipping</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Billing</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Pickup In Store</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script>
+    console.log('welcome');
+
+let santa = document.getElementById('santa');
+let mobile = document.getElementById('mobile');
+let second_nav = document.querySelector('.second-nav');
+let cross = document.getElementById("cross");
+
+santa.addEventListener('click',()=>{
+   mobile.classList.add('test');
+  santa.style.display="none";
+  cross.style.display="block"
+
+})
+
+cross.addEventListener('click',()=>{
+    mobile.classList.remove('test');
+    santa.style.display="block";
+    cross.style.display="none";
+})
+
+
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Category.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="index.css" rel="stylesheet">
+    <link href="services.css" rel="stylesheet">
+    <link href="products.css" rel="stylesheet">
+    <link href="blog.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link href="company.css" rel="stylesheet">
+    <link href="test2.css" rel="stylesheet">
+    <title>Home page</title>
+</head>
+
+<style>
+    .bannerji{
+        background-image: url('./assets/img9001.png'), radial-gradient(rgba(194, 181, 181, 0.6), rgba(5, 3, 3, 0.8));
+    background-blend-mode: darken;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    /* opacity: 80%; */
+     /* filter: brightness(0.7); */
+     position: relative;
+    
+    }
+    .bannerji .contentsa{
+        position: absolute;
+        top: 18%;
+        left: 5%;
+    }
+
+    .contentsa h3{
+      
+    font-family: Playfair Display;
+    letter-spacing: 0px;
+    color: white;
+    opacity: 1;
+    font-size: 50px;
+    }
+
+    .contentsa p{
+      
+    /* UI Properties */
+    
+    letter-spacing: 0px;
+    color:white;
+    opacity: 1;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: light;
+    color: white;
+    }
+
+    .contentsa .line{
+       max-width: 500px;
+       width: 100%;
+    }
+
+    .contentsa button{
+        /* border: 2px solid #000000; */
+    width: 250px;
+    height: 60px;
+    color:black;
+    font-size: 18px;
+    outline: none;
+    background-color: aliceblue;
+    margin-top: 10px;
+    }
+
+    .home-btnas{
+        width: 180px;
+        max-width: 100%;
+    }
+
+    .hogi{
+        width: 150px;
+        max-width: 100%;
+    }
+
+    .contentsa button:hover{
+        background-color: #22395b;
+        color: white;
+    }
+
+    .btnasd:hover{
+       background-color:#22395b ;
+       color: white;
+    }
+
+    @media only screen and (max-width:500px){
+        .contentsa h3{
+            font-size: 30px;
+        }
+
+        .contentsa p{
+            font-size: 18px;
+        }
+    }
+
+    .changes-images{
+        position: relative;
+    }
+
+    .changes-images img{
+        position: absolute;
+        top: -69px;
+        height: 289px;
+        right: 15px;
+    }
+
+    @media only screen and (max-width:768px){
+        .changes-images img{
+            position: relative;
+            height: auto;
+            top: 20px;
+        }
+    }
+
+    .train{
+        width: 180px;
+        max-width: 100%;
+        height: 200px;
+    }
+
+    .social_linksa{
+    position: relative;
+    left: 30px;
+  }
+
+  @media only screen and (max-width:766px) {
+    .social_linksa{
+      left: auto;
+    }
+  }
+
+@media only screen and (max-width:932px){
+    .tigt-com{
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .tie-sir{
+        margin: 15px 0px;
+    }
+}
+</style>
+<body class="bkgwhite">
+     <div class="headers">
+       <div class="second-nav">
+           <div style="position: relative;" class="tar">
+           <i  id="santa" style="color:#fff ; font-size: 24px;" class="fa-solid fa-bars fanta"></i>
+           <i id="cross" style="color:#fff; position: absolute; top: -168px; font-size: 24px;" class="fa-solid fa-xmark sest"></i>
+       </div>
+           <ul  class="just">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="company.html">our company</a></li>
+               <li><a href="products.html">our products</a></li>
+               <li><a href="services.html">our services</a></li>
+               <li><a href="blog.html">blog</a></li>
+               <li><a href="contact.html">Contact us</a></li>
+           </ul>
+       </div>
+       <div class="first-nav">
+        <span><img class="imh" src="assets/icon.png" alt=""></span>
+        <div class="mobile-navigation">
+        <ul class="mobile-nav" id="mobile">
+            <li><a href="index.html">Home</a></li>
+                <li><a href="company.html">our company</a></li>
+                <li><a href="products.html">our products</a></li>
+                <li><a href="services.html">our services</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+       </ul>
+   </div>
+   </div>
+    </div> 
+
+    <!-- <div  class="header  header-fixed">
+        <div class="navbar container">
+
+            <input type="checkbox" id="navbar-toggle">
+            <label for="navbar-toggle"><i></i></label>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="company.html">our company</a></li>
+                    <li><a href="products.html">our products</a></li>
+                    <li><a href="services.html">our services</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <img style="width:50px ; height:50px; " src="assets/icon.png" alt="Logo Image">
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <div class=" col-md-12" style="background-color:black ;">
+        <div class="myBanner marLR">
+            <div class="content">
+                <h2 class="homes1">
+                    The best scrap dealers across the country
+                </h2>
+                <hr>
+                <p class="ho2"> Connecting people across the globe.</p>
+                <button style="border: 1px solid #22395b;" class="btn btn-outline-success visit-btn">Visit now</button>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="bannerji">
+         <div class="contentsa">
+            <h3>
+                The best scrap dealers across the 
+            </h3>
+            <h3>
+                country 
+            </h3>
+            <hr class="line">
+            <p> Connecting people across the globe.</p>
+            <div class="btnas">
+                <button style="border: 1px solid #22395b;" class="btn  visit-btn">Visit now</button>
+            </div>
+         </div>
+    </div>
+
+
+    <div class=" ">
+        <div class="col-md-12">
+            <center>
+                <h3 class="heading1 " style="text-align: center; padding: 2%;">
+                    Our Services
+                </h3>
+            </center>
+        </div>
+        <div class="row sercol1">
+            <div class="col-md-12 se-para">
+
+                <!-- Wrapper for carousel items -->
+
+                 <!-- Make changes in to css mobile view -->
+
+                <div class="row">
+                    <div class="col-sm-3 contas">
+                        <div class="d-flex justify-content-center">
+                            <div class="img-box">
+                                <img src="assets\img301.png" class="" alt="img">
+                                <h2 class="chead">Scrap </h2>
+                                <p class="cpara">Includes metal and non-metal products.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 contas">
+                        <div class="d-flex justify-content-center">
+                            <div class="img-box">
+                                <img src="assets\img302.png" class="img-fluid" alt="img">
+                                <h2 class="chead">Steel products</h2>
+                                <p class="cpara">Includes TMT bars, aluminum ingots and prime steel billets.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 contas">
+                        <div class="d-flex justify-content-center">
+                            <div class="img-box">
+                                <img src="assets\img303.png" class="img-fluid" alt="img">
+                                <h2 class="chead">Minerals</h2>
+                                <p class="cpara">Copper, Lead and Zinc ores.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--what to do with digital marketing ?-->
+
+                    <div class="col-sm-3 contas">
+                        <div class="d-flex justify-content-center">
+                            <div class="img-box">
+                                <img src="assets\img304.png" class="img-fluid" alt="img">
+                                <h2 class="chead">Digital Marketing</h2>
+                                <p class="cpara">Lorem ipsum dolor amety do eiusmod tempor incididunt labore dolore.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <center><button  style="background-color:#22395b ; color: white;" class="btn  mybtn coms8 home-btnas">View All</button></center>
+
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="container-fluid homest1">
+        <div class="row homest2">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h3 class="homest3">
+                            Why choose us?
+                        </h3>
+                        <p class="homest4">
+                            MPM Overseas is well known for its top-notch service all over the globe as it expertises over best quality of products which has made the organization stand tall amongst many good competitors in the global market. Our unparalleled service across the globe
+                            with quality assured products has smoothened our path to reach the epitome of success and we are quite affirmative in maintaining our service quality over the upcoming days.
+                        </p>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img alt="Bootstrap Image Preview" src="assets\img80002.png" class="homeimgs1" />
+                            </div>
+                            <div class="col-md-6 d-none d-md-block">
+                                <img alt="Bootstrap Image Preview" src="assets\img80001.png" class="homeimgs2" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid coms5">
+        <div class="row">
+            <div class="col-md-3">
+                <h5 class="coms6">SOME NEW ITEMS </h5>
+                <h3 class="coms7 tigt-com">
+                    Our Products
+                </h3>
+                <button style="background-color:#22395b ; color: white;" class="btn  mybtn coms8 hogi">View All</button>
+            </div>
+            <div class="col-md-3 tie-sir">
+                <img alt="Bootstrap Image Preview" src="assets\img7001.png" height="100% " width="100%" />
+                <h3 class="coms9">
+                    Agro Commodities
+                </h3>
+                <p class="coms10">Trade in agro commodities occurs all across the globe. The commodities include Rice, soybeans and cashew nuts.
+                </p>
+                <a href="#" class="coms11">Read More -></a>
+            </div>
+            <div class="col-md-3 tie-sir">
+                <img alt="Bootstrap Image Preview" src="assets\img12.png" height="100% " width="100%" />
+                <h3 class="coms9">
+                    Minerals
+                </h3>
+                <p class="coms10">In addition to trading metals and non-metals, our main business is trading lead, copper and zinc ores. </p>
+                <a href="#" class="coms11">Read More -></a>
+            </div>
+            <div class="col-md-3 tie-sir">
+                <img alt="Bootstrap Image Preview" src="assets\img13.png" height="100% " width="100%" />
+                <h3 class="coms9">
+                    Prime Products
+                </h3>
+                <p class="coms10">It is possible to think about Thermo Mechanically Treated (TMT) bars as a new generation of high strength steel with enhanced qualities.</p>
+                <a href="#" class="coms11">Read More -></a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid" style="background-color:#ffffff; padding: 3%;">
+        <div class="row">
+            <div class="col-md-10">
+                <h3 class="oph5 padfhome">
+                    View more testimonials
+                </h3>
+            </div>
+            <div class="col-md-2">
+
+                <button style="background-color: #22395b; color:white;" type="button" class="btn button5 opbt1">
+                    View all
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row sercol1">
+                <div class="col-md-12">
+                    <div id="myFavCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myFavCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myFavCarousel" data-slide-to="1"></li>
+                            <li data-target="#myFavCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner" style="width:100% ; height:100%">
+                            <div class="item carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img7.png" class="" alt="img">
+                                                <h2 class="chead">Neha Sharma, Ranchi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img8.png" class="img-fluid" alt="img">
+                                                <h2 class="chead">Megha Batra, Delhi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img9.png" class="img-fluid" alt="img">
+                                                <h2 class="chead">Neeraj Sharma, Delhi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img7.png" class="" alt="img">
+                                                <h2 class="chead">Neha Sharma, Ranchi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img8.png" class="img-fluid" alt="img">
+                                                <h2 class="chead">Megha Batra, Delhi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img9.png" class="img-fluid" alt="img">
+                                                <h2 class="chead">Neeraj Sharma, Delhi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img7.png" class="" alt="img">
+                                                <h2 class="chead">Neha Sharma, Ranchi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img8.png" class="img-fluid" alt="img">
+                                                <h2 class="chead">Megha Batra, Delhi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class=" bkgf0">
+                                            <div class="img-box">
+                                                <img src="assets\img9.png" class="img-fluid" alt="img">
+                                                <h2 class="chead">Neeraj Sharma, Delhi</h2>
+                                                <p class="cpara">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control-prev" href="#myFavCarousel" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#myFavCarousel" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+    <section id="footer">
+        <footer class="footerClass">
+            <div class="container-fluid color1">
+                <div class="row footers1">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row changes-for">
+                                <div class="col-md-10">
+                                    <h1 class="footers2">Need Something?<br> We are here, contact us anytime.</h1>
+                                   <a href="contact.html"><button style="background-color:#ffffff ; color:black; border:1px solid black;" type="button" class="btn button5 btnasd">
+                                        Contact us
+                                            </button></a>
+                                </div>
+                                <div class="col-md-2 changes-images">
+                                    <img  alt="Bootstrap Image Preview" src="assets\img21.png" width="100%" height="100%"  />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class=" row footers3">
+                   
+
+                 
+                     <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img  class="train" style="opacity: 10%;" alt="Bootstrap Image Preview" src="assets\img201.png" />
+                            </div>
+                            <div class="col-md-4">
+                                <form action="/action_page.php">
+                                    <label for="emails" class="footers4">Sign Up For Offers, Product News, And Tips</label><br>
+                                    <input type="email" id="emails" name="emails" value="Enter email addresses" class="footers5">
+
+                                </form>
+                            </div>
+                            <div class="col-md-4 social_linksa">
+                                <h3 class="ser3031 paddings4">
+                                    Follow Us
+                                </h3>
+                                <a href="#" class="fa fa-facebook socialmedial"></a>
+                                <a href="#" class="fa fa-twitter socialmedial"></a>
+                                <a href="#" class="fa fa-instagram socialmedial"></a>
+                                <a href="#" class="fa fa-youtube socialmedial"></a>
+
+                            </div>
+                        </div>
+                        <div style="margin-top:30px ;" class="row">
+                            
+                            <div class="col-md-4">
+                                <ul class="text-center">
+                                    <li class="list-item ser3031">
+                                        About Ssbeauty
+                                    </li>
+                                    <li class="list-item ser3033 ">
+                                        <a href="#" class="linkstyle"> About Us</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle"> Our Brands</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle"> Newsroom</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                                Careers</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Store Locator</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Events</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="text-center">
+                                    <li class="list-item ser3031">
+                                        My Ssbeauty
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Order Status</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle"></a>
+
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle"> Purchase History</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle"></a>
+                                        Account Settings
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Offers For You</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Blogs</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="text-center">
+                                    <li class="list-item ser3031">
+                                        Help Center
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Customer Service</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Returns & Exchange</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Shipping</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Billing</a>
+                                    </li>
+                                    <li class="list-item ser3033">
+                                        <a href="#" class="linkstyle">
+                                            Pickup In Store</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- <div class="col-md-2" style="padding: 2%;">
+                        <img alt="Bootstrap Image Preview" src="" style="opacity: 10% ;" />
+                    </div> -->
+                </div>
+            </div>
+        </footer>
+    </section>
+<script>
+    console.log('welcome');
+
+let santa = document.getElementById('santa');
+let mobile = document.getElementById('mobile');
+let second_nav = document.querySelector('.second-nav');
+let cross = document.getElementById("cross");
+
+santa.addEventListener('click',()=>{
+   mobile.classList.add('test');
+  santa.style.display="none";
+  cross.style.display="block"
+
+})
+
+cross.addEventListener('click',()=>{
+    mobile.classList.remove('test');
+    santa.style.display="block";
+    cross.style.display="none";
+})
+
+
+
+</script>
+</body>
